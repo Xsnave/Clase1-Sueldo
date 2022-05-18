@@ -24,7 +24,7 @@ namespace Clase1_Sueldo
         }
 
         private void Impuesto(double Sueldo)
-        {
+        {   //Formula para los impuestos.
             double DAFP = Convert.ToDouble(txt_AFP.Text);
             double DISR = Convert.ToDouble(txt_Renta.Text);
             double DSEGURO = Convert.ToDouble(txt_Seguro.Text);
